@@ -1,3 +1,5 @@
+// ********** Conversions ********** //
+
 // "93" => 93
 score = "93"
 console.log(score, typeof(score))
@@ -98,3 +100,38 @@ console.log(bool, typeof(bool));
 strbool = String(bool)
 console.log(strbool, typeof(strbool));
 console.log()
+
+
+
+
+// ********** Operations ********** // 
+
+let value = 3
+let negValue = -value
+console.log(value, ',', negValue);
+console.log();
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**4);
+console.log(2/4);
+console.log(2%4);
+console.log();
+
+
+let str1 = "hello"
+let str2 = "supriyo"
+
+let str3 = str1 + " " + str2 + " !"
+console.log(str3);
+console.log();
+
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 3);
+console.log(1+2+"2");
+console.log(3+4*5%3);
+
+console.log();
