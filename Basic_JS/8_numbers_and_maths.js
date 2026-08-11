@@ -83,13 +83,13 @@ const randomInRange = Math.floor(Math.random() * (max - min + 1)) + min;
 console.log('Random number between 10 and 20:', randomInRange);
 
 
-// // Converting strings to numbers
-// const intString = '100';
-// const floatString = '12.34';
-// console.log('parseInt:', parseInt(intString, 10));
-// console.log('parseFloat:', parseFloat(floatString));
+// Converting strings to numbers
+const intString = '100';
+const floatString = '12.34';
+console.log('parseInt:', parseInt(intString, 10));
+console.log('parseFloat:', parseFloat(floatString));
 
-// // NaN and Infinity
-// const badNumber = Number('abc');
-// console.log('badNumber is NaN:', Number.isNaN(badNumber));
-// console.log('infinity example:', 1 / 0);
+// NaN and Infinity
+const badNumber = Number('abc');
+console.log('badNumber is NaN:', Number.isNaN(badNumber));
+console.log('infinity example:', 1 / 0);
