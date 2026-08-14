@@ -79,3 +79,46 @@ function greetUser2(name="Guest"){
 console.log(greetUser2());
 console.log(greetUser2("Supriyo"));
 console.log();
+
+
+
+
+function calculateCartPrice(num){
+    return num
+}
+
+console.log(calculateCartPrice(200, 400, 600));
+
+// rest operator
+function calculateCartPrice1(...num){
+    return num
+}
+
+console.log(calculateCartPrice1(200, 400, 600));
+
+function calculateCartPrice2(val1, val2, ...num){
+    return num
+}
+
+console.log(calculateCartPrice2(200, 400, 600, 700, 900));
+console.log();
+
+
+
+const user = {
+    name: "Supriyo",
+    prince: 1999
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.name} and cartvalue is ${anyObject.prince}`);
+    
+}
+handleObject(user)
+
+
+function returnArrValue(anyArr){
+    console.log(`Second value of the array ${anyArr} in ${anyArr[1]}`)
+}
+
+returnArrValue([1,2,3,4,5])
